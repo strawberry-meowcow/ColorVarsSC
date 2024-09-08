@@ -1,0 +1,20 @@
+::StoryTitle
+Template Example
+
+:: StoryData
+{
+        "ifid": "C3891911-D205-400C-938F-668DFFD9A277"
+}
+
+::Start
+<h1>This is heading 1.</h1>
+<h2>This is heading 2.</h2>
+<h3>This is heading 3.</h3>
+This is ordinary text.
+
+@@color:var(--primary-200);This is text styled with "var(--primary-200)".@@
+
+[[This is an ordinary link|Start]]
+
+
+<<button "This is an ordinary button." "Start">><</button>>
